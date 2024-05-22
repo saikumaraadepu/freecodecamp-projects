@@ -1,0 +1,64 @@
+body {
+    font-family: "Lexend Deca", "Helvetica Neue";
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #bdb8b8;
+}
+
+#main {
+    background-color: #c2bdbd;
+    border-radius: 8px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(252, 251, 251, 0.1);
+    text-align: center;
+}
+
+#title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    margin: 20px 0;
+}
+
+#image {
+    width: 100%;	
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+#tribute-info {
+    font-size: 1.1em;
+    margin: 20px 0;
+    text-align: left;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #376fab;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#tribute-link:hover {
+    background-color: #007bff;
+}
